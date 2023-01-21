@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>LAVADERO EL TALLARIN</title>
+	<link rel="stylesheet" type="text/css" href="estilos/estilos.css">
+</head>
+<body>
+
+	<main>
+
+		<div class="contenedor__todo">
+			
+		<div class="caja__trasera">
+			<div class="caja__trasera-login">
+				
+			</div>
+			<div class="caja__trasera-register">
+				<h3>Aún no pedis tu turno?</h3>
+				<p>Que esperas para registrarte y obtener tu turno para lavar tu auto, en un solo paso!</p>
+				
+		    </div>
+				
+			</div>
+
+			<div class="contenedor__login-register">
+				<form action="" class="formulario__login">
+					
+					
+					<!--Formulario para registrar -->
+				</form>
+				
+				<form id="frmlogin" class="grupo-entradas" method="POST" action="login_registrar.php">
+				    
+				    <!--Formulario para registrar -->
+				    <h2>Registrar Turno</h2>
+        <input type="text" class="cajaentradatexto" placeholder="Nombre y Apellido del Cliente" required 
+		name="txtnombre"><br>
+		
+        </br><input type="text" class="cajaentradatexto" placeholder="Auto o Camioneta" required name="txtvehiculo"><br>
+        </br><h4>Dia del Turno</h4><br>
+        <input type="date" class="cajaentradatexto" placeholder="Dia del Turno" required 
+		name="txtfecha"><br>
+		
+		</br><h4>Hora del Turno</h4><br>
+        <input type="time" class="cajaentradatexto" placeholder="Hora del Turno" required name="txthora"></br>
+
+        <button type="submit" class="botonenviar" name="btnregistrarx">Registrar</button>
+					
+
+
+
+
+
+
+				</form>
+			</div>
+			
+		</div>
+
+
+
+
+	</main>
+	<script src="./removeBanner.js"></script>
+	<script src="js/script.js"></script>
+	
+
+</body>
+</html>
